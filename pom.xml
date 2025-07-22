@@ -5,9 +5,12 @@
     <groupId>io.junix</groupId>
     <artifactId>xia</artifactId>
     <version>1.0.0</version>
-    <packaging>war</packaging>
 
     <dependencies>
-
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.2.3.Final</version>
+        </dependency>
     </dependencies>
 </project>
